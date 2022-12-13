@@ -20,7 +20,10 @@
 
     <p> Testo: <?php echo $text ?> </p>
     <p> Numero delle lettere del testo: <?php echo strlen($text) ?> </p>
-    <br>
-    <p> Testo: <?php echo $text_2 ?> </p>
+    <hr>
+    <p> Testo: <?php echo str_replace($bad, "***", $text) ?> </p>
+    <p> Numero delle lettere del testo 2: <?php echo strlen($text_2) ?> </p>
+
+    
 </body>
 </html>
